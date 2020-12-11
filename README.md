@@ -18,5 +18,10 @@ pip3 install -r requirements.txt --user
 chromium_cookie_decrypt.py <sqlite> <name> [<host_key>]
 ```
 
+## Example
+```
+chromium_cookie_decrypt.py ~/.config/chromium/Default/Cookies <name> [<host_key>]
+```
+
 ## Credits
 The crypto stuff inside this script doesn't come from my mind, but from [this StackOverflow answer](https://stackoverflow.com/questions/23153159/decrypting-chromium-cookies/23727331#23727331).
