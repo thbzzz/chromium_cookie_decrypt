@@ -88,6 +88,6 @@ if __name__ == "__main__":
 
     table = PrettyTable()
     table.field_names = ["name", "domain", "value"]
-    [table.add_row([*c]) for c in cookies_decrypted]
+    [table.add_row(c) for c in cookies_decrypted]
     table.align = "l"
     print(table)
